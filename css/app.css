@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: whitesmoke;
-    background-image: url('/images/background1.jpg'); /* Path to the image */
+    background-image: url('images/background1.jpg'); /* Path to the image */
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Avoid repeating the image */
