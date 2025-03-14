@@ -1,0 +1,38 @@
+[
+    {
+      "Title": "Introduction to Project Planning: An Overview of the Importance of Planning in Software Development",
+      "Summary": "In the high-stakes world of software development, project planning is the unsung hero. It's the invisible thread that weaves together every aspect of a project, ensuring that all the moving parts work in harmony. Without a solid plan, even the most groundbreaking ideas can crumble under the weight of missed deadlines, skyrocketing costs, and frustrated clients. Let’s dive into why planning is the bedrock of successful software development.",
+      "Link": "https://www.linkedin.com/pulse/introduction-project-planning-overview-importance-software-mark-hogan-l1z6e/?trackingId=33w51uV9Q3SsW8X4eDd1Fw%3D%3D"
+    },
+    {
+      "Title": "Planning to Succeed: The Importance of Thorough Project Preparation",
+      "Summary": "Failure to Plan is Planning to Fail. Proper planning is essential to avoid project failure and ensure successful outcomes. Starting a project at the coding phase is like starting to film a movie without a script, funding, or a cast—it simply doesn't make sense.",
+      "Link": "https://www.linkedin.com/pulse/planning-succeed-importance-thorough-project-mark-hogan-67rsc/?trackingId=PSVVNr2NSCWwggXZiuRflg%3D%3D"
+    },
+    {
+      "Title": "Technical Debt: The Silent Project Killer",
+      "Summary": "<p>Technical debt is an inevitable part of software development, but it doesn’t have to be the silent killer of projects. By acknowledging its presence, prioritizing its management, and incorporating regular refactoring and testing practices, you can keep technical debt in check and ensure the long-term success of your projects.</p><p>Just like with financial debt, the key is to manage it proactively and avoid letting it spiral out of control. Remember, a little planning and effort upfront can save a lot of headaches down the road.</p>",
+      "Link": "https://www.linkedin.com/posts/markhoganinla_technical-debt-the-silent-project-killer-activity-7275213400748519426-CW77?utm_source=share&utm_medium=member_desktop&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BZbzfjgkXSdi98%2BHipITQdw%3D%3D"
+    },
+    {
+      "Title": "Unit and QA Testing: Why Skipping Planning Costs You More",
+      "Summary": "Unit and QA Automated Testing is not just a best practice—it's a necessity. Proper planning ensures that tests are standardized, rigorous, and thorough, catching issues early and maintaining code quality. The investment in planning and implementing these tests upfront pays off by preventing costly rework, ensuring timely delivery, and maintaining user satisfaction.",
+      "Link": "https://www.linkedin.com/posts/markhoganinla_unit-and-qa-testing-why-skipping-planning-activity-7275230850533761025-e51h?utm_source=share&utm_medium=member_desktop&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BZbzfjgkXSdi98%2BHipITQdw%3D%3D"
+    },
+    {
+      "Title": "Security: The Non-Negotiable",
+      "Summary": "Security is the non-negotiable element that underpins every successful project. It’s not a box to be checked at the end of the development cycle but a core component that needs to be integrated from the very beginning. By prioritizing security in your planning, you protect not just your application but also the trust and loyalty of your users.",
+      "Link": "https://www.linkedin.com/posts/markhoganinla_security-the-non-negotiable-activity-7275234623784108033-sokV?utm_source=share&utm_medium=member_desktop&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BZbzfjgkXSdi98%2BHipITQdw%3D%3D"
+    },
+    {
+      "Title": "Caching: Boosting Efficiency",
+      "Summary": "Caching is an indispensable tool for boosting efficiency and performance. It’s not just about making things faster—it’s about creating a more reliable and scalable application. By integrating caching into your development process from the outset, you can ensure that your application not only meets but exceeds user expectations.",
+      "Link": "https://www.linkedin.com/posts/markhoganinla_caching-boosting-efficiency-activity-7275245946131660801-o46l?utm_source=share&utm_medium=member_desktop&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BZbzfjgkXSdi98%2BHipITQdw%3D%3D"
+    },
+    {
+      "Title": "Performance: The User Experience Factor",
+      "Summary": "Performance is a key factor that directly influences user experience. It’s not just about speed; it's about creating reliable, efficient, and enjoyable applications. By prioritizing performance in the planning stage, you lay the groundwork for a successful project that meets and exceeds user expectations.",
+      "Link": "https://www.linkedin.com/posts/markhoganinla_performance-the-user-experience-factor-activity-7275253521669660672-gPdx?utm_source=share&utm_medium=member_desktop&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BZbzfjgkXSdi98%2BHipITQdw%3D%3D"
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+[
+    {
+      "Name": "Various Projects",
+      "Description": "<li>Accruent TMS Modernization</li><li>New RESTful APIs for Legacy System</li><li>Accruent Asset Enterprise Stabilization and Decommission</li><li>Accruent Asset Enterprise Enhancements</li><li>Automated Microsoft Windows Build (LAN)</li>",
+      "Link": "https://www.linkedin.com/in/markhoganinla/details/projects/"
+    },
+    {
+      "Name": "Advanced Logging Project",
+      "Description": "The AdvancedLogging solution is a comprehensive logging framework designed to enhance the logging capabilities of C# and VB.NET applications.",
+      "Link": "https://github.com/KrazKjn/AdvancedLogging"
+    },
+    {
+      "Name": "Microsoft Graph API Examples",
+      "Description": "Microsoft Graph API Examples",
+      "Link": "https://github.com/KrazKjn/graph_api_examples"
+    },
+    {
+      "Name": "Microsoft Blazor Examples",
+      "Description": "Microsoft Blazor Examples",
+      "Link": "https://github.com/KrazKjn/blazor_examples"
+    },
+    {
+      "Name": "Miscellaneous PowerShell Examples",
+      "Description": "Miscellaneous PowerShell Examples",
+      "Link": "https://github.com/KrazKjn/powershell_examples"
+    },
+    {
+      "Name": "Miscellaneous SMTP Examples",
+      "Description": "Example SMTP PowerShell Scripts",
+      "Link": "https://github.com/KrazKjn/smtp_examples"
+    }
+  ]
+  
