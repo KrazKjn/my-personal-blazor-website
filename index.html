@@ -13,13 +13,11 @@
 </head>
 
 <script>
-    function setBodyBackground(imageUrl, color) {
+    function setBodyBackground(imageUrl) {
         document.body.style.backgroundImage = `url('${imageUrl}')`;
         document.body.style.backgroundSize = "cover"; // Optional: Ensure it scales properly
         document.body.style.backgroundPosition = "center"; // Optional: Center the image
         document.body.style.backgroundRepeat = "no-repeat"; // Optional: Prevent tiling
-        document.body.color = color;
-        //alert("Background changed: " + imageUrl + " " + color);
     }
 
     function getBodyBackground() {
