@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: whitesmoke;
-    background-image: url('images/background1.jpg'); /* Path to the image */
+    background-image: url('/images/background1.jpg'); /* Path to the image */
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Avoid repeating the image */
@@ -185,4 +185,55 @@ a:hover {
     height: 600px;
     border: none;
     margin-top: 20px;
+}
+
+iframe, img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    width: 100%; /* Stay within the viewport */
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between recommendations */
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.recommendation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Spacing between image and quote */
+}
+
+.recommendation.reverse {
+    flex-direction: row-reverse; /* Reverse layout for zig-zag effect */
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image scales without distortion */
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #3498db; /* A visual indicator */
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.quote cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
 }

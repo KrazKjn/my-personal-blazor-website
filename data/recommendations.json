@@ -1,13 +1,21 @@
 [
-    {
-      "Author": "Jordan Martin",
-      "TextBody": "Mark is a problem solver. Even when we have super complicated solutions to build, Mark finds a way to break then down into individual pieces. He also is a forward thinker. Mark doesn't built solutions just for what you're asking for today, but also what you may ask for in the future. Because of this methodology, we often find ourselves having features already built which can be utilized for new initiatives. Always a pleasure to work with Mark.",
-      "Link": "https://www.linkedin.com/in/markhoganinla/"
-    },
-    {
-      "Author": "Karen Merryman",
-      "TextBody": "Mark is very quick to learn applications and solve problems. I was impressed and inspired by his ability to skillfully and diplomatically negotiate change in our department during a time when our industry was going through major changes. I credit Mark with keeping our team on its toes at all times.",
-      "Link": "https://www.linkedin.com/in/markhoganinla/"
-    }
-  ]
+  {
+    "Author": "Gerald Lester",
+    "TextBody": "Mark is not only a highly talented developer, but an efficient and well organized manager who is always looking out for the company and his team. He makes building up the talents and skills of his team a high priority.",
+    "Link": "https://www.linkedin.com/in/geraldlester/",
+    "ImageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHiHjpntPLNSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516372351112?e=1747267200&v=beta&t=MOmebn_lTWslOMtc2OTfnicSJUpZLqZNmODicd99Fdg"
+  },
+  {
+    "Author": "Jordan Martin",
+    "TextBody": "Mark is a problem solver. Even when we have super complicated solutions to build, Mark finds a way to break then down into individual pieces. He also is a forward thinker. Mark doesn't built solutions just for what you're asking for today, but also what you may ask for in the future. Because of this methodology, we often find ourselves having features already built which can be utilized for new initiatives. Always a pleasure to work with Mark.",
+    "Link": "https://www.linkedin.com/in/jordanmartinwebdev/",
+    "ImageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFnHlXs8R4cFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1638197078764?e=1747267200&v=beta&t=VKFIiTkHF26QD9zeZdmzOs0W7Lj3pCLELYYxzDQBD60"
+  },
+  {
+    "Author": "Karen Merryman",
+    "TextBody": "Mark is very quick to learn applications and solve problems. I was impressed and inspired by his ability to skillfully and diplomatically negotiate change in our department during a time when our industry was going through major changes. I credit Mark with keeping our team on its toes at all times.",
+    "Link": "https://www.linkedin.com/in/karenmerryman/",
+    "ImageUrl": "https://media.licdn.com/dms/image/v2/C5103AQFJIBppyUMFwg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516294277028?e=1747267200&v=beta&t=6x2tGr8TDu3lrWEklIsRyxOG8ZJrffKH8JRQk2_BkXg"
+  }
+]
   
