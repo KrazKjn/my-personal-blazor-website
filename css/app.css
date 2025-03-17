@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: whitesmoke;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background1.jpg'); /* Path to the image */    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/my-personal-blazor-website/images/background1.jpg'); /* Path to the image */    
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Avoid repeating the image */
