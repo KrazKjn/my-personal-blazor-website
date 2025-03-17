@@ -5,8 +5,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark J. Hogan</title>
-    <base href="/my-personal-blazor-website/" />
-    <!-- <base href="/" /> -->
+    <base href="/" />
+    <script>
+        // Detect environment and set the background image
+        (function () {
+            const isDevelopment = window.location.hostname === "localhost";
+            const baseHref = isDevelopment ? "/" : "/my-personal-blazor-website/";
+    
+            // Update the <base> tag
+            document.querySelector("base").setAttribute("href", baseHref);
+        })();
+    </script>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -27,6 +36,20 @@
 </script>
 
 <body class="body">
+    <script>
+        // Detect environment and set the background image
+        (function () {
+            const isDevelopment = window.location.hostname === "localhost";
+            const baseHref = isDevelopment ? "/" : "/my-personal-blazor-website/";
+    
+            const backgroundImage = window.getComputedStyle(document.body).backgroundImage;
+            console.log(backgroundImage);        
+            if (!isDevelopment && !backgroundImage.includes(`${baseHref}/images`)) {
+                document.body.style.backgroundImage = backgroundImage.replace('/images', `${baseHref}/images`);
+            }
+    
+        })();
+    </script>
     <div id="app">
         <svg class="loading-progress">
             <circle r="40%" cx="50%" cy="50%" />
