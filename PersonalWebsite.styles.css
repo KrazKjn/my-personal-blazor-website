@@ -22,24 +22,25 @@ main[b-eq0hpf4v7i] {
     align-items: center;
 }
 
-    .top-row[b-eq0hpf4v7i]  a, .top-row[b-eq0hpf4v7i]  .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-    }
+.top-row[b-eq0hpf4v7i]  a, .top-row[b-eq0hpf4v7i]  .btn-link {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
 
-    .top-row[b-eq0hpf4v7i]  a:hover, .top-row[b-eq0hpf4v7i]  .btn-link:hover {
-        text-decoration: underline;
-    }
+.top-row[b-eq0hpf4v7i]  a:hover, .top-row[b-eq0hpf4v7i]  .btn-link:hover {
+    text-decoration: underline;
+}
 
-    .top-row[b-eq0hpf4v7i]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.top-row[b-eq0hpf4v7i]  a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 @media (max-width: 640.98px) {
     .top-row[b-eq0hpf4v7i] {
         justify-content: space-between;
+        display: none;
     }
 
     .top-row[b-eq0hpf4v7i]  a, .top-row[b-eq0hpf4v7i]  .btn-link {

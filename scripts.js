@@ -9,6 +9,55 @@ function getBodyBackground() {
     return window.getComputedStyle(document.body).backgroundImage;
 }
 
+function verifyBackgroundImage()
+{
+    if (getBodyBackground() === 'none') {
+        setBodyBackground('/images/background1.jpg');
+        return;
+    }
+
+    // Get the saved background image from session storage
+    let savedImage = sessionStorage.getItem("backgroundImage");
+    console.log(`savedImage: ${savedImage}`);
+
+    let imageUrl = "images/"; // Path to your image
+    let currentImage = "";
+
+    if (!savedImage || savedImage === "null") {
+        // Call a JavaScript function to get the current body background
+        let currentBackgroundImage = getBodyBackground();
+        console.log(`currentBackgroundImage: ${currentBackgroundImage}`);
+        currentImage = currentBackgroundImage.split('/').pop().split('"')[0];
+        console.log(`currentImage: ${currentImage}`);
+    } else {
+        console.log(`Setting currentImage: ${currentImage} to ${savedImage}`);
+        currentImage = savedImage;
+    }
+
+    // Decide on the next image based on the current image
+    switch (currentImage) {
+        case "background1.jpg":
+            currentImage = "background2.jpg";
+            break;
+        case "background2.jpg":
+            currentImage = "background3.jpg";
+            break;
+        default:
+            currentImage = "background1.jpg";
+            break;
+    }
+
+    imageUrl += currentImage;
+    console.log(`new imageUrl: ${imageUrl}`);
+
+    // Set the new background image
+    setBodyBackground(imageUrl);
+
+    // Save the new background image to session storage
+    sessionStorage.setItem("backgroundImage", currentImage);
+    console.log(`savedImage to: ${currentImage}`);
+}
+
 function getWindowWidth() {
     return window.innerWidth;
 }
@@ -23,54 +72,19 @@ function getBootstrapVersion() {
     return "Bootstrap is not loaded on this page.";
 }
 
-function setDynamicHeight(elementId) {
-    const element = document.getElementById(elementId);
-
+function setDynamicCssHeight() {
     const viewportHeight = window.innerHeight; // Viewport height
-    const scrollHeight = document.documentElement.scrollHeight; // Scrollable height
+    const pages = document.getElementsByClassName('page');
+    const itemsHeight = pages.length > 0 ? pages[0].clientHeight : document.documentElement.clientHeight;
 
-    // Set the height to the larger value
-    // if (!element)
-    //     element.style.height = Math.max(viewportHeight, scrollHeight) + 'px';
-    console.log(`setDynamicHeight: Setting height to ${Math.max(viewportHeight, scrollHeight)} px`);
-    document.viewportHeight = Math.max(viewportHeight, scrollHeight) + 'px';
-    document.height = Math.max(viewportHeight, scrollHeight) + 'px';
-}
-
-// window.addEventListener('resize', () => {
-//     setDynamicHeight('main-content');
-// });
-
-function setDynamicCssHeight(backgroundSize) {
-    const viewportHeight = window.innerHeight; // Viewport height
-    const scrollHeight = document.documentElement.scrollHeight; // Scrollable height
-
-    const newHeight = Math.max(viewportHeight, scrollHeight);
-    // if (document.body && document.body.clientHeight && (document.body.clientHeight < viewportHeight || newHeight > viewportHeight)) {
-    //     //const newHeight = viewportHeight;
-    //     console.log(`setDynamicCssHeight: Setting height to ${newHeight} px`);
-    //     document.documentElement.style.setProperty('--dynamic-height', `${newHeight}px`);
-    // } else {
-    //     document.documentElement.style.setProperty('--dynamic-height', '100%');
-    // }
-    if (backgroundSize === "small") {
-        document.documentElement.style.setProperty('--dynamic-height', '100%');    
-    } else {
-        console.log(`setDynamicCssHeight: Setting height to ${newHeight} px`);
-        document.documentElement.style.setProperty('--dynamic-height', `${newHeight}px`);
+    if (itemsHeight <= viewportHeight){
+        console.log(`setDynamicCssHeight: Resetting height to ${viewportHeight} px`);
+        document.documentElement.style.setProperty('--dynamic-height', `${viewportHeight}px`);
+        return;
     }
+    const scrollHeight = pages.length > 0 ? pages[0].scrollHeight : document.documentElement.scrollHeight; // Scrollable height
+    const newHeight = Math.max(viewportHeight, scrollHeight);
+    console.log(`setDynamicCssHeight: Setting height to ${newHeight} px`);
+    document.documentElement.style.setProperty('--dynamic-height', `${newHeight}px`);
+    verifyBackgroundImage();
 }
-
-function pageLoaded() {
-    console.log(`pageLoaded`);
-    setDynamicCssHeight();
-}
-
-function resized() {
-    console.log(`resized`);
-    setDynamicCssHeight();
-}
-
-// window.addEventListener('resize', resized);
-// window.addEventListener('DOMContentLoaded', pageLoaded);
-// setDynamicCssHeight(); // Initial calculation
