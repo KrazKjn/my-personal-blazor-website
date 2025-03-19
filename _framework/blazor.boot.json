@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PersonalWebsite",
   "resources": {
-    "hash": "sha256-Yvy/ShVJB/aI854r467uQnxLIeVjT4ayK6i6jkhJBDk=",
+    "hash": "sha256-UN110hJzZWt014yZ4bk66sNJ+g/heubfSkqMoXpr48c=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.wibx5glv2g.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.horg9ede60.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -17,7 +17,7 @@
       "Microsoft.Extensions.Primitives.b4jkd67mjk.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.JSInterop.ceii4uvike.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.s0bw0921jm.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
-      "PersonalWebsite.rdb0xjtm9o.wasm": "PersonalWebsite.wasm",
+      "PersonalWebsite.ad65elcam4.wasm": "PersonalWebsite.wasm",
       "System.Collections.Concurrent.3ehu1bcyg6.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.i5mojijpem.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.7evji71ui8.wasm": "System.Collections.wasm",
@@ -77,7 +77,7 @@
       "Microsoft.Extensions.Primitives.b4jkd67mjk.wasm": "sha256-y5KhfFmWfdksjtbAoenM1JUiSJMqFX/OvU33Zgo3Hhk=",
       "Microsoft.JSInterop.ceii4uvike.wasm": "sha256-XKYdndgfChvRApHX9srcHDwFlU47PgUGEu6JdEwmajI=",
       "Microsoft.JSInterop.WebAssembly.s0bw0921jm.wasm": "sha256-NNwR0xu2wKvvEIZnSUwKht+/0RJ9ziHW01M66VViIkI=",
-      "PersonalWebsite.rdb0xjtm9o.wasm": "sha256-n3a/yNAKz/BZVO6a0fGxQ1JL6FA9HiLr/YGs7n5EcvE=",
+      "PersonalWebsite.ad65elcam4.wasm": "sha256-fjHTBcepKVkhNpheiGGDeKO7np7LncFhAO5muASr2ZI=",
       "System.Collections.Concurrent.3ehu1bcyg6.wasm": "sha256-dV96G/HF1YeoQHWb7qAz79rlxBOm2/Tq24EUOLmfEew=",
       "System.Collections.Immutable.i5mojijpem.wasm": "sha256-2o7/1luHPNvyJ3F18KOhwDGsQt+YpN+yd+WoIxuEvXo=",
       "System.Collections.7evji71ui8.wasm": "sha256-UXwNNFtOTyX8RpV2BhKH+pm2i9PfyhkGHLqzeHs9whw=",
