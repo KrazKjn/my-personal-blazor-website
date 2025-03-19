@@ -24,32 +24,7 @@
 
  <!-- loading bootstrap functions to get the version -->
 <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
-<script>
-    function setBodyBackground(imageUrl) {
-        document.body.style.backgroundImage = `url('${imageUrl}')`;
-        document.body.style.backgroundSize = "cover"; // Optional: Ensure it scales properly
-        document.body.style.backgroundPosition = "center"; // Optional: Center the image
-        document.body.style.backgroundRepeat = "no-repeat"; // Optional: Prevent tiling
-    }
-
-    function getBodyBackground() {
-        return window.getComputedStyle(document.body).backgroundImage;
-    }
-
-    function getWindowWidth() {
-        return window.innerWidth;
-    }
-
-    function getBootstrapVersion() {
-        if (window.bootstrap && bootstrap.Tooltip) {
-            return bootstrap.Tooltip.VERSION || "Unknown version (Bootstrap 4+)";
-        }
-        if (typeof $ !== "undefined" && $.fn && $.fn.tooltip) {
-            return $.fn.tooltip.Constructor.VERSION || "Unknown version (Bootstrap 3)";
-        }
-        return "Bootstrap is not loaded on this page.";
-    }
-</script>
+<script src="scripts.js"></script>
 
 <body class="body">
     <script>

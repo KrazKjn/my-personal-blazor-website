@@ -6,6 +6,7 @@ body {
     background-size: cover; /* Ensure the image covers the whole section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Avoid repeating the image */
+    /* height: 100%; */
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -14,6 +15,8 @@ html {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: whitesmoke;
+    /* height: 100%; */
+    height: var(--dynamic-height);
 }
 
 body.dynamic-background {
@@ -200,12 +203,17 @@ div {
 .recommendation {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
+    align-items: flex-start;
     gap: 20px; /* Spacing between image and quote */
 }
 
 .recommendation.reverse {
     flex-direction: row-reverse; /* Reverse layout for zig-zag effect */
+}
+
+.paragraph-rows {
+    flex-direction: column;
 }
 
 .image {
@@ -233,6 +241,18 @@ div {
 .my-image {
     width: 200px;
     height: 200px;
+}
+
+.image-container-left {
+    max-width: 210px;
+    float: left;
+    text-align: center; 
+}
+
+.image-container-right {
+    max-width: 210px;
+    float: right;
+    text-align: center; 
 }
 
 .image-url-left {
@@ -263,6 +283,7 @@ div {
 @media (max-width: 768px) { /* Adjust the width for mobile devices */
     .right-column {
         width: 100%; /* Full width for mobile */
+        height: 100%; /* Full width for mobile */
         text-align: justify; /* Aligns with both the left and right edges */
         margin-left: 0; /* Reset margin for mobile */
     }
@@ -272,6 +293,16 @@ div {
         height: 25px;
     }
 
+    .image-container-left {
+        max-width: 80px;
+        float: left;
+    }
+    
+    .image-container-right {
+        max-width: 80px;
+        float: right;
+    }
+        
     .image-url-left {
         float: left;
         margin-right: 4px;
@@ -287,4 +318,8 @@ div {
         height: 37px;
         position: top
     }    
+
+    /* body {
+        height: 100vh;
+    } */
 }
