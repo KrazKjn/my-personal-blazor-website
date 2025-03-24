@@ -1,23 +1,34 @@
 [
   {
-    "Author": "Michael Galdamez",
-    "TextBody": "I had the pleasure of working alongside Mark during our time at Accruent, He is a highly talented and knowledgeable leader who consistently demonstrated an incredible depth of technical expertise. He brought a unique blend of strategic thinking and hands-on experience to the table. His ability to lead and mentor the team helped us achieve outstanding results on multiple projects. Whether it was troubleshooting complex technical issues or driving innovative solutions, Mark was always at the forefront, ensuring that we were not only meeting but exceeding our goals. I highly recommend Mark Hogan to anyone looking for a talented, driven, and skilled IT leader.",
-    "Link": "https://www.linkedin.com/in/michael-galdamez-80076378/",
-    "ImageUrl": "https://media.licdn.com/dms/image/v2/C5603AQHvsxsdxCL6qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1540270347944?e=1747872000&v=beta&t=xH328tp1KxAkmCn3kqdST6aHaAejbwlyBXNhKHHR27s"
-  },
-  {
+    "id": 1,
     "Author": "Gerald Lester",
     "TextBody": "Mark is not only a highly talented developer, but an efficient and well organized manager who is always looking out for the company and his team. He makes building up the talents and skills of his team a high priority.",
     "Link": "https://www.linkedin.com/in/geraldlester/",
     "ImageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHiHjpntPLNSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516372351112?e=1747267200&v=beta&t=MOmebn_lTWslOMtc2OTfnicSJUpZLqZNmODicd99Fdg"
   },
   {
+    "id": 2,
+    "Author": "Mark Toce",
+    "TextBody": "<p>During my time working with Mark Hogan from September 2018 to December 2024, I witnessed firsthand his exceptional technical skills and leadership qualities that significantly contributed to our team's success.</p><p>As a Senior Software Engineer, Mark played a pivotal role in driving down the number of bugs in our product backlog. His dedication to quality was evident in his efforts to spearhead initiatives that led to consecutive production releases with zero \"Severity 1\" defects. This not only improved the stability of our products but also boosted customer confidence in their reliability.</p><p>In his role as an Engineering Manager, Mark excelled in mentoring and teaching younger developers. He fostered a culture of continuous learning and skill development, ensuring that the team was always growing and improving. Mark's implementation of standard practices aligned with industry best practices, which streamlined our processes and enhanced overall productivity.</p><p>Mark was also instrumental in maintaining a friendly and open atmosphere within the team. He encouraged honest communication and collaboration, which helped create a positive and productive work environment. His ability to lead by example and his commitment to excellence were truly inspiring.</p><p>I was sad to see Mark depart, but I am confident that he will be a valuable asset to any organization. I highly recommend Mark Hogan for any engineering or management role, and I am certain that he will continue to achieve great success in his future endeavors.</p>",
+    "Link": "https://www.linkedin.com/in/mark-t-1a7278186/",
+    "ImageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQEqudt2lAM7QQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1586958671544?e=1748476800&v=beta&t=g1j42EKhoUDiWd9FK87k-mUkeZaadQHM_zBsKHYmtI8"
+  },
+  {
+    "id": 3,
+    "Author": "Michael Galdamez",
+    "TextBody": "I had the pleasure of working alongside Mark during our time at Accruent, He is a highly talented and knowledgeable leader who consistently demonstrated an incredible depth of technical expertise. He brought a unique blend of strategic thinking and hands-on experience to the table. His ability to lead and mentor the team helped us achieve outstanding results on multiple projects. Whether it was troubleshooting complex technical issues or driving innovative solutions, Mark was always at the forefront, ensuring that we were not only meeting but exceeding our goals. I highly recommend Mark Hogan to anyone looking for a talented, driven, and skilled IT leader.",
+    "Link": "https://www.linkedin.com/in/michael-galdamez-80076378/",
+    "ImageUrl": "https://media.licdn.com/dms/image/v2/C5603AQHvsxsdxCL6qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1540270347944?e=1747872000&v=beta&t=xH328tp1KxAkmCn3kqdST6aHaAejbwlyBXNhKHHR27s"
+  },
+  {
+    "id": 4,
     "Author": "Jordan Martin",
     "TextBody": "Mark is a problem solver. Even when we have super complicated solutions to build, Mark finds a way to break then down into individual pieces. He also is a forward thinker. Mark doesn't built solutions just for what you're asking for today, but also what you may ask for in the future. Because of this methodology, we often find ourselves having features already built which can be utilized for new initiatives. Always a pleasure to work with Mark.",
     "Link": "https://www.linkedin.com/in/jordanmartinwebdev/",
     "ImageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFnHlXs8R4cFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1638197078764?e=1747267200&v=beta&t=VKFIiTkHF26QD9zeZdmzOs0W7Lj3pCLELYYxzDQBD60"
   },
   {
+    "id": 5,
     "Author": "Karen Merryman",
     "TextBody": "Mark is very quick to learn applications and solve problems. I was impressed and inspired by his ability to skillfully and diplomatically negotiate change in our department during a time when our industry was going through major changes. I credit Mark with keeping our team on its toes at all times.",
     "Link": "https://www.linkedin.com/in/karenmerryman/",
