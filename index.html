@@ -34,7 +34,7 @@
             const baseHref = isDevelopment ? "/" : "/my-personal-blazor-website";
     
             const backgroundImage = window.getComputedStyle(document.body).backgroundImage;
-            console.log(backgroundImage);        
+            //console.log(backgroundImage);
             if (!isDevelopment && !backgroundImage.includes(`${baseHref}/images`)) {
                 document.body.style.backgroundImage = backgroundImage.replace('/images', `${baseHref}/images`);
             }
