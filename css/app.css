@@ -300,16 +300,16 @@ div {
     .image-url-left {
         float: left;
         margin-right: 4px;
-        width: 50px;
-        height: 37px;
+        width: 100px;
+        height: 75px;
         position: top
     }
 
     .image-url-right {
         float: right;
         margin-left: 4px;
-        width: 50px;
-        height: 37px;
+        width: 100px;
+        height: 75px;
         position: top
     }    
 }

@@ -1,3 +1,5 @@
+const logToConsole = false;
+
 function setBodyBackground(imageUrl) {
     document.body.style.backgroundImage = `url('${imageUrl}')`;
     document.body.style.backgroundSize = "cover"; // Optional: Ensure it scales properly
@@ -22,7 +24,7 @@ function verifyBackgroundImage()
 
     // Get the saved background image from session storage
     let savedImage = sessionStorage.getItem("backgroundImage");
-    console.log(`savedImage: ${savedImage}`);
+    if (logToConsole) { console.log(`savedImage: ${savedImage}`); }
 
     let imageUrl = "images/"; // Path to your image
     let currentImage = "";
@@ -30,11 +32,11 @@ function verifyBackgroundImage()
     if (!savedImage || savedImage === "null") {
         // Call a JavaScript function to get the current body background
         let currentBackgroundImage = getBodyBackground();
-        console.log(`currentBackgroundImage: ${currentBackgroundImage}`);
+        if (logToConsole) { console.log(`currentBackgroundImage: ${currentBackgroundImage}`); }
         currentImage = currentBackgroundImage.split('/').pop().split('"')[0];
-        console.log(`currentImage: ${currentImage}`);
+        if (logToConsole) { console.log(`currentImage: ${currentImage}`); }
     } else {
-        console.log(`Setting currentImage: ${currentImage} to ${savedImage}`);
+        if (logToConsole) { console.log(`Setting currentImage: ${currentImage} to ${savedImage}`); }
         currentImage = savedImage;
     }
 
@@ -52,14 +54,14 @@ function verifyBackgroundImage()
     }
 
     imageUrl += currentImage;
-    console.log(`new imageUrl: ${imageUrl}`);
+    if (logToConsole) { console.log(`new imageUrl: ${imageUrl}`); }
 
     // Set the new background image
     setBodyBackground(imageUrl);
 
     // Save the new background image to session storage
     sessionStorage.setItem("backgroundImage", currentImage);
-    console.log(`savedImage to: ${currentImage}`);
+    if (logToConsole) { console.log(`savedImage to: ${currentImage}`); }
 }
 
 function getWindowWidth() {
@@ -81,14 +83,14 @@ function setDynamicCssHeight() {
     const pages = document.getElementsByClassName('page');
     const itemsHeight = pages.length > 0 ? pages[0].clientHeight : document.documentElement.clientHeight;
 
-    if (itemsHeight <= viewportHeight){
-        console.log(`setDynamicCssHeight: Resetting height to ${viewportHeight} px`);
+    if (itemsHeight <= viewportHeight) {
+        if (logToConsole) { console.log(`setDynamicCssHeight: Resetting height to ${viewportHeight} px`); }
         document.documentElement.style.setProperty('--dynamic-height', `${viewportHeight}px`);
         return;
     }
     const scrollHeight = pages.length > 0 ? pages[0].scrollHeight : document.documentElement.scrollHeight; // Scrollable height
     const newHeight = Math.max(viewportHeight, scrollHeight);
-    console.log(`setDynamicCssHeight: Setting height to ${newHeight} px`);
+    if (logToConsole) { console.log(`setDynamicCssHeight: Setting height to ${newHeight} px`); }
     document.documentElement.style.setProperty('--dynamic-height', `${newHeight}px`);
     verifyBackgroundImage();
 }
