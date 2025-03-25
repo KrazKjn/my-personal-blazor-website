@@ -9,6 +9,10 @@ function getBodyBackground() {
     return window.getComputedStyle(document.body).backgroundImage;
 }
 
+function getHostname() {
+    return window.location.hostname;
+}
+
 function verifyBackgroundImage()
 {
     if (getBodyBackground() === 'none') {
