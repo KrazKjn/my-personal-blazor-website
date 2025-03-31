@@ -262,6 +262,14 @@ div {
     position: top
 }
 
+.image-url-left-small {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 37px;
+    position: top
+}
+
 .image-url-right {
     float: right;
     margin-left: 10px;
