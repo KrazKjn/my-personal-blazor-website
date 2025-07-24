@@ -3,7 +3,8 @@
       "id": 1,
       "Name": "Various Projects",
       "Description": "<li>Accruent TMS Modernization</li><li>New RESTful APIs for Legacy System</li><li>Accruent Asset Enterprise Stabilization and Decommission</li><li>Accruent Asset Enterprise Enhancements</li><li>Automated Microsoft Windows Build (LAN)</li>",
-      "Link": "https://www.linkedin.com/in/markhoganinla/details/projects/"
+      "Link": "https://www.linkedin.com/in/markhoganinla/details/projects/",
+      "ImageAlt": "Projects listed on LinkedIn"
     },
     {
       "id": 2,

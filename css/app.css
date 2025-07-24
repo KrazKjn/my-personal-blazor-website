@@ -321,3 +321,36 @@ div {
         position: top
     }    
 }
+
+.skills-columns {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.skills-columns div {
+    flex: 1;
+    min-width: 250px;
+}
+
+.skills-columns h4 {
+    margin-bottom: 0.5rem;
+    color: #87cefa;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    font-size: 1.4rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #ffcc70;
+}
+
+html {
+    scroll-behavior: smooth;
+}

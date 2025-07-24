@@ -1,3 +1,23 @@
+/* /Components/CallToAction/CallToAction.razor.rz.scp.css */
+/* Components/CallToAction/CallToAction.css */
+.call-to-action[b-ocx68moy7d] {
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  border-top: 1px solid #444;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: whitesmoke;
+  text-align: left;
+}
+
+.call-to-action a[b-ocx68moy7d] {
+  color: #00bfff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.call-to-action a:hover[b-ocx68moy7d] {
+  text-decoration: underline;
+}
 /* /Components/GitHubLink/GitHubLink.razor.rz.scp.css */
 .git-hub-link[b-ni7ityeiyb] {
     position: fixed;
