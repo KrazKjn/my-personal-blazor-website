@@ -1,0 +1,90 @@
+[
+  {
+    "Title": "⚡ TDXFER: Restoring SCADA Cross-Unit Visibility",
+    "Problem": "PSC removal broke inter-unit telemetry in TDACS.",
+    "Solution": "Repurposed a test interface and created TDXFER to restore value transfer between PCCs.",
+    "Lesson": "Even decommissioned systems leave behind interfaces that can be reinvented.",
+    "DomainTags": ["SCADA", "TDACS", "Refinery", "Data Engineering"],
+    "ImportanceRank": 1
+  },
+  {
+    "Title": "📡 Auto-Healing TCP/IP for Data General Systems",
+    "Problem": "Buggy third-party stack failed silently over time.",
+    "Solution": "Used sinusoidal heartbeats to detect flatlines and restart services with alerting.",
+    "Lesson": "Unreliable vendors aren’t the end—resilience comes from creativity.",
+    "DomainTags": ["Networking", "Automation", "SCADA", "Unix"],
+    "ImportanceRank": 2
+  },
+  {
+    "Title": "🛠 CIM/21 SCADA Aggregator – A New PSC",
+    "Problem": "No unified telemetry system across refinery units.",
+    "Solution": "Used CIMIO interfaces to scan TDACS, OPC, and DDE—repurposed SCADA as cross-unit console.",
+    "Lesson": "You can wire intelligence across domains if you deeply know the stack.",
+    "DomainTags": ["SCADA", "OPC", "Telemetry", "UX"],
+    "ImportanceRank": 3
+  },
+  {
+    "Title": "🔒 NT 4.0 Secure Desktop Model (Precursor to IT Works)",
+    "Problem": "Users needed full functionality without admin rights.",
+    "Solution": "Engineered redirect paths and permissions for registry, file system, and configs—secure by design.",
+    "Lesson": "Security isn’t an add-on—it’s designed in.",
+    "DomainTags": ["Windows", "Security", "Registry", "UX"],
+    "ImportanceRank": 4
+  },
+  {
+    "Title": "🧑‍💻 Mission Control Console with Live Asset & Ticket Integration",
+    "Problem": "No live user/computer view or automated ticketing in the refinery domain.",
+    "Solution": "Built SQL Server-backed dashboard with actionable context menus and auto-logging.",
+    "Lesson": "Ticketing should document reality, not disrupt it.",
+    "DomainTags": ["SQL", "ITSM", "UX", "WinForms"],
+    "ImportanceRank": 5
+  },
+  {
+    "Title": "📊 Excel-Powered Linux DNS Administration",
+    "Problem": "Pre-Windows DNS required manual edits and command-line deployment.",
+    "Solution": "Built Excel/VBA scripts to generate zone files and trigger remote restarts from a user-friendly sheet.",
+    "Lesson": "Enterprise-grade doesn’t mean GUI-less.",
+    "DomainTags": ["DNS", "Excel", "Automation", "Linux"],
+    "ImportanceRank": 6
+  },
+  {
+    "Title": "🧬 Domain Hygiene via Perl Scripting",
+    "Problem": "Inconsistencies in user account names, group membership, and profile shares.",
+    "Solution": "Built Perl-based suite to enforce domain uniformity, permissions, and folder creation.",
+    "Lesson": "Predictability matters when scaling identity and access.",
+    "DomainTags": ["Perl", "Identity Management", "Scripting", "Domain Services"],
+    "ImportanceRank": 7
+  },
+  {
+    "Title": "🖧 Bricked Router Recovery",
+    "Problem": "Wrong firmware installed—router became unresponsive.",
+    "Solution": "Accessed UART via terminal emulator and reflashed correct firmware using TFTP.",
+    "Lesson": "Curiosity and confidence are stronger than fear when facing undocumented problems.",
+    "DomainTags": ["Hardware", "Networking", "Embedded"],
+    "ImportanceRank": 8
+  },
+  {
+    "Title": "🔩 Rebuilding a 350 Engine",
+    "Problem": "Complete engine restoration from bare block without prefabricated kits.",
+    "Solution": "Honed cylinders, installed camshaft, crankshaft, pistons—rebuilt engine to spec.",
+    "Lesson": "Understanding systems comes from building them, bolt by bolt.",
+    "DomainTags": ["Mechanical", "Restoration", "Automotive"],
+    "ImportanceRank": 9
+  },
+  {
+    "Title": "🧺 Appliance Repair Across Generations",
+    "Problem": "Multiple household appliances failed across different homes.",
+    "Solution": "Diagnosed electrical and mechanical faults, sourced parts, and completed all repairs independently.",
+    "Lesson": "Empathy plus engineering equals reliability where it matters most.",
+    "DomainTags": ["Appliance", "Diagnostics", "Repair"],
+    "ImportanceRank": 10
+  },
+  {
+    "Title": "❄️ HVAC Retrofit with Modern Freon",
+    "Problem": "Legacy R-22 HVAC system needed modernization without full unit replacement.",
+    "Solution": "Researched refrigerant compatibility, retrofitted for R-454A, and optimized operational integrity.",
+    "Lesson": "Solutions live at the intersection of chemistry, economics, and engineering.",
+    "DomainTags": ["HVAC", "Chemistry", "Retrofit"],
+    "ImportanceRank": 11
+  }
+]

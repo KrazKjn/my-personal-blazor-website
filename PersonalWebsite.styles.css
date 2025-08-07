@@ -214,6 +214,23 @@ main[b-eq0hpf4v7i] {
         overflow-y: auto;
     }
 }
+
+.bi-lightbulb-fill-nav-menu[b-q2ue019pvp] {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: #ffc107;
+}
+
+.bi-robot-nav-menu[b-q2ue019pvp] {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: #0dcaf0;
+}
+
+.bi-boxes[b-q2ue019pvp] {
+  /* color: #0d6efd; Bootstrap primary */
+  margin-right: 0.5rem;
+}
 /* /Pages/Resumes.razor.rz.scp.css */
 .bi[b-7ivg9jap3q] {
     display: inline-block;
