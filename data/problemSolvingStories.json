@@ -32,6 +32,14 @@
     "ImportanceRank": 4
   },
   {
+    "Title": "🧩 IT Works – Modular System Management Platform",
+    "Problem": "Texaco lacked a unified, scalable system for installations, remote support, help desk workflows, and user lifecycle automation.",
+    "Solution": "Architected and deployed IT Works, a modular platform with Builder (installation engine), Servicer (remote support), Manager (help desk), and Architecter (directory editor), all designed for persona-based automation and least-privilege enforcement.",
+    "Lesson": "Modular thinking and user empathy turn infrastructure into a service—not just a system.",
+    "DomainTags": ["Infrastructure", "Automation", "System Management", "Legacy Modernization"],
+    "ImportanceRank": 12
+  },
+  {
     "Title": "🧑‍💻 Mission Control Console with Live Asset & Ticket Integration",
     "Problem": "No live user/computer view or automated ticketing in the refinery domain.",
     "Solution": "Built SQL Server-backed dashboard with actionable context menus and auto-logging.",
