@@ -62,7 +62,7 @@
       "id": 6,
       "Name": "IT Works System Management Platform",
       "Description": "Modular, persona-based system management platform for Windows environments, designed to modernize legacy infrastructure and optimize user experience.",
-      "Link": "/itworks",
+      "Link": "/it-works",
       "ImageUrl": "/images/itworks.svg",
       "ImageAlt": "IT Works System Management Platform",
       "Projects": [
@@ -70,7 +70,7 @@
           "id": 0,
           "Name": "Builder",
           "Description": "Automates full system builds and packaging workflows for enterprise platforms.",
-          "Link": "/itworks#builder",
+          "Link": "/it-works#builder",
           "ImageUrl": "/images/builder.svg",
           "ImageAlt": "Builder Component"
         },
@@ -78,7 +78,7 @@
           "id": 1,
           "Name": "Servicer",
           "Description": "Manages refresh cycles and desktop servicing with minimal user disruption.",
-          "Link": "/itworks#servicer",
+          "Link": "/it-works#servicer",
           "ImageUrl": "/images/servicer.svg",
           "ImageAlt": "Servicer Component"
         },
@@ -86,7 +86,7 @@
           "id": 2,
           "Name": "Manager",
           "Description": "Provides centralized control and visibility across managed systems.",
-          "Link": "/itworks#manager",
+          "Link": "/it-works#manager",
           "ImageUrl": "/images/manager.svg",
           "ImageAlt": "Manager Component"
         },
@@ -94,7 +94,7 @@
           "id": 3,
           "Name": "Architecter",
           "Description": "Enables modular infrastructure design and persona-based deployment strategies.",
-          "Link": "/itworks#architecter",
+          "Link": "/it-works#architecter",
           "ImageUrl": "/images/architecter.svg",
           "ImageAlt": "Architecter Component"
         },
@@ -102,7 +102,7 @@
           "id": 4,
           "Name": "Smart Packaging",
           "Description": "Streamlines application delivery and update workflows with intelligent packaging.",
-          "Link": "/itworks#smartpackaging",
+          "Link": "/it-works#smartpackaging",
           "ImageUrl": "/images/smartpackaging.svg",
           "ImageAlt": "Smart Packaging Component"
         }
