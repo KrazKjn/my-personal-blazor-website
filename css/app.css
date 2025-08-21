@@ -445,7 +445,7 @@ html {
 
 
 .modal {
-  display: none;
+  display: flex;
   position: fixed;
   z-index: 9999;
   left: 0;
@@ -457,13 +457,13 @@ html {
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
   margin: 5% auto;
   padding: 1rem;
   border-radius: 8px;
   width: 90%;
   height: 80%;
-  max-width: 900px;
+  max-width: 80%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   position: relative;
 }
@@ -486,4 +486,14 @@ html {
 
 .close:hover {
   color: #000;
+}
+
+.link-button {
+    background: none;
+    border: none;
+    color: #007acc;
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
 }
