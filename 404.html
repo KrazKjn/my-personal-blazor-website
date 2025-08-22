@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      var base = "/my-personal-blazor-website";
+      var path = window.location.pathname.replace(base, "");
+      var query = window.location.search;
+      var fragment = window.location.hash;
+      window.location.replace(`${base}/?redirect=${encodeURIComponent(path)}${query}${fragment}`);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the Blazor app...</p>
+  </body>
+</html>

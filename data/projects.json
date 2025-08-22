@@ -133,12 +133,12 @@
       "ImageAlt": "SMTP Examples"
     },
     {
-      "id": 9,
-      "name": "Calendar Publisher (Python)",
-      "description": "CSV to ICS creation with subscription-ready output",
-      "link": "https://github.com/KrazKjn/calendar_publisher",
-      "imageUrl": "/images/csv_2_ics.png",
-      "imageAlt": "Python - CSV to ICS"
+      "id": 10,
+      "Name": "Calendar Publisher (Python)",
+      "Description": "CSV to ICS creation with subscription-ready output",
+      "Link": "https://github.com/KrazKjn/calendar_publisher",
+      "ImageUrl": "/images/csv_2_ics.png",
+      "ImageAlt": "Python - CSV to ICS"
     }
   ]
   
