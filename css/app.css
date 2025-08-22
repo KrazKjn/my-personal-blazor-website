@@ -168,9 +168,17 @@ code {
     line-height: 1.6;
 }
 
+.container-resume  {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
 ul {
     margin: 10px 0;
     padding-left: 20px;
+    list-style-type: disc; /* This restores bullet points */
 }
 
 p {
@@ -179,6 +187,11 @@ p {
 
 ul li {
     margin-bottom: 10px;
+}
+
+ul.custom-list {
+  list-style-type: disc;
+  padding-left: 40px;
 }
 
 a {
@@ -190,11 +203,14 @@ a:hover {
     text-decoration: underline;
 }
 
+/* PDF Viewer Enhancements */
 .pdf-viewer {
     width: 100%;
     height: 600px;
     border: none;
     margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 4px;
 }
 
 iframe, img {
@@ -278,6 +294,14 @@ div {
     position: top
 }
 
+.image-url-left-medium {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 75px;
+    position: top
+}
+
 .image-url-left-small {
     float: left;
     margin-right: 10px;
@@ -335,7 +359,7 @@ div {
         width: 100px;
         height: 75px;
         position: top
-    }    
+    }
 }
 
 .skills-columns {
@@ -390,8 +414,136 @@ html {
   margin-bottom: 1.5rem;
 }
 
+
+/* Card Styling */
+
+.card {
+    background-color: #696969; /* Light solid background */
+    /* background-color: rgba(255, 255, 255, 0.05); */ /* subtle contrast */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* soft border */
+    border-radius: 8px;
+    padding: 0; /* Match accordion padding */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Accent bar */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #3498db;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+/* Card content */
+.card-body {
+    padding: 1rem;
+    color: #eee;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 1.1rem; /* Match accordion-header */
+    font-weight: bold;
+    color: #ffcc70;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraph spacing */
+.card-body p:not(:last-child) {
+    margin-bottom: 0.5rem;
+    color: #eee;
+}
+
+.card-body em {
+    color: #ccc;
+    font-style: italic;
+}
+
+.card-body small {
+    font-size: 0.85rem;
+    color: #f0f0f0;
+}
+
+.card-body strong {
+    color: #87cefa;
+}
+
+
+/* Sort Dropdown */
+#sortOrder {
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #222;
+    color: whitesmoke;
+}
+
+/* Responsive Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.col-md-6, .col-lg-4 {
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+/* Empty State Message */
+.text-muted {
+    font-style: italic;
+    color: #aaa;
+}
+
+/* LegacyProfile */
+.legacy-profile {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    color: #ffcc70;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    color: #eee;
+}
+
+@media (min-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .download-link {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .education-entry {

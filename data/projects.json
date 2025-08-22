@@ -63,7 +63,7 @@
       "Name": "IT Works System Management Platform",
       "Description": "Modular, persona-based system management platform for Windows environments, designed to modernize legacy infrastructure and optimize user experience.",
       "Link": "it-works",
-      "ImageUrl": "/images/itworks.svg",
+      "ImageUrl": "/images/ITWorks.jpg",
       "ImageAlt": "IT Works System Management Platform",
       "Projects": [
         {
@@ -71,7 +71,7 @@
           "Name": "Builder",
           "Description": "Automates full system builds and packaging workflows for enterprise platforms.",
           "Link": "it-works#builder",
-          "ImageUrl": "/images/builder.svg",
+          "ImageUrl": "/images/ITWorks_Builder.png",
           "ImageAlt": "Builder Component"
         },
         {
@@ -79,7 +79,7 @@
           "Name": "Servicer",
           "Description": "Manages refresh cycles and desktop servicing with minimal user disruption.",
           "Link": "it-works#servicer",
-          "ImageUrl": "/images/servicer.svg",
+          "ImageUrl": "/images/ITWorks_Servicer.png",
           "ImageAlt": "Servicer Component"
         },
         {
@@ -87,7 +87,7 @@
           "Name": "Manager",
           "Description": "Provides centralized control and visibility across managed systems.",
           "Link": "it-works#manager",
-          "ImageUrl": "/images/manager.svg",
+          "ImageUrl": "/images/ITWorks_Manager.png",
           "ImageAlt": "Manager Component"
         },
         {
@@ -95,7 +95,7 @@
           "Name": "Architecter",
           "Description": "Enables modular infrastructure design and persona-based deployment strategies.",
           "Link": "it-works#architecter",
-          "ImageUrl": "/images/architecter.svg",
+          "ImageUrl": "/images/ITWorks_Architecter.png",
           "ImageAlt": "Architecter Component"
         },
         {
@@ -103,7 +103,7 @@
           "Name": "Smart Packaging",
           "Description": "Streamlines application delivery and update workflows with intelligent packaging.",
           "Link": "it-works#smartpackaging",
-          "ImageUrl": "/images/smartpackaging.svg",
+          "ImageUrl": "/images/ITWorks_SmartPackaging.png",
           "ImageAlt": "Smart Packaging Component"
         }
       ]
@@ -131,6 +131,14 @@
       "Link": "https://github.com/KrazKjn/smtp_examples",
       "ImageUrl": "/images/SMTP.jfif",
       "ImageAlt": "SMTP Examples"
+    },
+    {
+      "id": 9,
+      "name": "Calendar Publisher (Python)",
+      "description": "CSV to ICS creation with subscription-ready output",
+      "link": "https://github.com/KrazKjn/calendar_publisher",
+      "imageUrl": "/images/csv_2_ics.png",
+      "imageAlt": "Python - CSV to ICS"
     }
   ]
   
