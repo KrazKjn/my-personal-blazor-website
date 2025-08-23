@@ -8,8 +8,17 @@
       var path = window.location.pathname.replace(base, "");
       var query = window.location.search;
       var fragment = window.location.hash;
-      window.location.replace(`${base}/?redirect=${encodeURIComponent(path)}${query}${fragment}`);
-    </script>
+ 
+      console.log("404.html: Redirecting...");
+      console.log("404.html: Base path:", base);
+      console.log("404.html: Resolved path:", path);
+      console.log("404.html: Query string:", query);
+      console.log("404.html: Fragment:", fragment);
+ 
+      var targetUrl = `${base}/?redirect=${encodeURIComponent(path)}${query}${fragment}`;
+      console.log("404.html: Final redirect URL:", targetUrl);
+
+      window.location.replace(targetUrl);    </script>
   </head>
   <body>
     <p>Redirecting to the Blazor app...</p>
