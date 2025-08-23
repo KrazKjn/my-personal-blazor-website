@@ -15,7 +15,7 @@
       console.log("404.html: Query string:", query);
       console.log("404.html: Fragment:", fragment);
  
-      var targetUrl = `${base}/?redirect=${encodeURIComponent(path)}${query}${fragment}`;
+      var targetUrl = `${base}/?redirect=${base}${encodeURIComponent(path)}${query}${fragment}`;
       console.log("404.html: Final redirect URL:", targetUrl);
 
       window.location.replace(targetUrl);    </script>
