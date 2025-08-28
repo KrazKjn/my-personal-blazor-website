@@ -1,0 +1,182 @@
+[
+  {
+    "Id": "star-bff",
+    "Title": "Backend for Frontend (BFF) Implementation",
+    "Category": "Technical",
+    "Situation": "The company relied on a legacy Windows Presentation Foundation (WPF) application that was difficult to maintain, lacked modularity, and couldn’t scale across platforms.",
+    "Task": "Architect and implement a modern Backend for Frontend (BFF) solution that would decouple the UI from backend logic and enable a responsive, maintainable frontend.",
+    "Action": "Led the transition from WPF to a React-based frontend backed by C# .NET Core APIs. Scaffolded reusable components, implemented semantic CSS, and built a modular BFF layer that handled data shaping and legacy interop. Delivered a working proof of concept in five months while mentoring engineers through Razor/React syntax fixes and UI/UX modularity.",
+    "Result": "Modernized the application, improved performance and maintainability, and laid the foundation for iterative feature delivery and legacy storytelling.",
+    "StrategicImpact": [
+      "Legacy modernization",
+      "Frontend/backend decoupling",
+      "Reusable component architecture"
+    ],
+    "Tags": ["Frontend", "Legacy Modernization", "Mentorship"],
+    "WhyThisWorks": [
+      "Demonstrates modernization of legacy systems",
+      "Shows architectural foresight and modular thinking",
+      "Aligns with Entergy’s need for scalable, maintainable OT infrastructure"
+    ]
+  },
+  {
+    "Id": "star-zero-defects",
+    "Title": "Zero Defects Software Release",
+    "Category": "Mentorship",
+    "Situation": "Inherited a team that had never released a product without Severity 1 defects—issues that caused outages and escalations.",
+    "Task": "Lead the team to deliver a defect-free release while mentoring them on quality discipline and architectural accountability.",
+    "Action": "Implemented best practices in code review, test coverage, and release planning. Contributed to the codebase, stabilized critical modules, and introduced transparent logging and diagnostic overlays. Enforced GitFlow discipline and mentored engineers on audit-ready development cycles.",
+    "Result": "Delivered two consecutive releases with zero Severity 1 defects. The team gained confidence, velocity, and ownership.",
+    "StrategicImpact": [
+      "Quality assurance",
+      "Team transformation",
+      "Release discipline"
+    ],
+    "Tags": ["Mentorship", "Governance", "QualityAssurance"],
+    "WhyThisWorks": [
+      "Demonstrates leadership in high-risk environments",
+      "Shows commitment to quality and fault prevention",
+      "Aligns with Entergy’s need for zero-impact deployments"
+    ]
+  },
+  {
+    "Id": "star-system-builds",
+    "Title": "Automated System Builds",
+    "Category": "Technical",
+    "Situation": "Manual builds for desktops, servers, and process control systems were slow, error-prone, and inconsistent—especially in regulated environments.",
+    "Task": "Automate the system build process to ensure consistency, speed, and compliance.",
+    "Action": "Designed a hands-free build system using WinPE, PowerShell, and configuration scripts. Implemented diagnostic logging, asset validation, and network stress testing.",
+    "Result": "Achieved 100% hands-free builds across environments. Reduced setup time, eliminated manual errors, and improved audit traceability.",
+    "StrategicImpact": [
+      "Infrastructure automation",
+      "Audit readiness",
+      "SCADA provisioning"
+    ],
+    "Tags": ["Automation", "SCADA", "Compliance"],
+    "WhyThisWorks": [
+      "Supports lifecycle automation across OT platforms",
+      "Reduces human error and improves compliance",
+      "Enables scalable infrastructure provisioning"
+    ]
+  },
+  {
+    "Id": "star-managed-desktops",
+    "Title": "Managed Desktop Solution",
+    "Category": "Technical",
+    "Situation": "Texaco Refining and Marketing needed a scalable desktop management solution to support hardware/software lifecycle and reduce IT overhead.",
+    "Task": "Develop a fully managed desktop system that automated provisioning, updates, and diagnostics.",
+    "Action": "Created a desktop management framework with asset tracking, software deployment, and fault recovery. Built diagnostic overlays and modular scripts for remote troubleshooting.",
+    "Result": "Delivered a high-end business solution that improved ROI, reduced support tickets, and increased IT efficiency across the refinery.",
+    "StrategicImpact": [
+      "Asset lifecycle management",
+      "Remote fault recovery",
+      "Infrastructure discipline"
+    ],
+    "Tags": ["SCADA", "Automation", "Legacy Modernization"],
+    "WhyThisWorks": [
+      "Demonstrates infrastructure discipline in industrial environments",
+      "Aligns with OT asset lifecycle management",
+      "Shows proactive fault recovery and diagnostic tooling"
+    ]
+  },
+  {
+    "Id": "star-scada-implementation",
+    "Title": "Real-Time SCADA System Implementation",
+    "Category": "Technical",
+    "Situation": "The plant required a real-time SCADA system to unify data from isolated processing units and legacy control systems.",
+    "Task": "Implement a plant-wide Distributed Control System (DCS) that enabled seamless data transfer and monitoring.",
+    "Action": "Used Aspentech CIM/21 to architect SCADA/DCS integration. Connected Honeywell Hiway Gateways and legacy telemetry sources. Built overlays for fault isolation and diagnostic dashboards.",
+    "Result": "Delivered a resilient SCADA system that improved operational visibility, reduced downtime, and enabled proactive fault detection.",
+    "StrategicImpact": [
+      "SCADA/DCS integration",
+      "Telemetry resilience",
+      "Real-time fault recovery"
+    ],
+    "Tags": ["SCADA", "Telemetry", "Fail and Recover"],
+    "WhyThisWorks": [
+      "Demonstrates SCADA/DCS integration expertise",
+      "Aligns with Entergy’s Smart Grid and AMI infrastructure goals",
+      "Shows real-time fault recovery and telemetry resilience"
+    ]
+  },
+  {
+    "Id": "star-itworks-imaging",
+    "Title": "IT Works Imaging Failures",
+    "Category": "Technical",
+    "Situation": "Windows system image creation and deployment over the network repeatedly failed under load, revealing latent infrastructure flaws.",
+    "Task": "Diagnose and resolve the root cause despite client resistance.",
+    "Action": "Tested imaging across topology layers, uncovered switch misconfigurations, and diplomatically requested access to confirm findings.",
+    "Result": "Resolved failures and hardened client networks. IT Works became a de facto stress test for infrastructure.",
+    "StrategicImpact": [
+      "Network diagnostics",
+      "Client trust building",
+      "Infrastructure hardening"
+    ],
+    "Tags": ["SCADA", "Fail and Recover", "Network Diagnostics"],
+    "WhyThisWorks": [
+      "Real-world OT stress testing",
+      "Diplomatic escalation",
+      "Infrastructure hardening"
+    ]
+  },
+  {
+    "Id": "star-itworks-troubleshooting",
+    "Title": "OT Imaging Failure Diagnosis",
+    "Category": "Technical",
+    "Situation": "Windows system image creation and deployment repeatedly failed during rollout of IT Works across client networks. The failures only occurred under high network load, revealing latent infrastructure flaws.",
+    "Task": "Troubleshoot and resolve the root cause of these failures despite client insistence that their networks were properly configured.",
+    "Action": "Tested imaging closer to the server and expanded outward. Discovered misconfigured trunk ports, routing inconsistencies, and port-level QoS issues. Requested topology details diplomatically and confirmed findings through stress testing.",
+    "Result": "Resolved imaging failures and hardened client infrastructure. IT Works became a de facto stress test for network resilience.",
+    "StrategicImpact": [
+      "OT stress testing",
+      "Network diagnostics",
+      "Client trust building"
+    ],
+    "Tags": ["SCADA", "Fail and Recover", "Network Diagnostics"],
+    "WhyThisWorks": [
+      "Exposed weaknesses that only surfaced under operational load",
+      "Navigated client resistance with tact and technical clarity",
+      "Improved infrastructure resilience for future deployments"
+    ]
+  },
+  {
+    "Id": "star-gina-bsod",
+    "Title": "GINA DLL Blue Screen Recovery",
+    "Category": "Technical",
+    "Situation": "A custom Windows GINA DLL caused a Blue Screen of Death (BSOD) on client systems during deployment. The error was introduced by me and had already been distributed to multiple clients.",
+    "Task": "Diagnose and recover from the failure without access to WinPE or bootable media, and restore client systems quickly.",
+    "Action": "Identified the disabled SATA driver as the root cause. Purchased a DOS NTFS driver, built a bootable floppy with AutoExec.bat to replace the faulty DLL, and distributed the fix with instructions.",
+    "Result": "Resolved the issue across the client fleet within four hours. Preserved client trust and documented the recovery process for future safeguards.",
+    "StrategicImpact": [
+      "Low-level fault recovery",
+      "Rapid field response",
+      "Error ownership and resolution"
+    ],
+    "Tags": ["Fail and Recover", "Error and Admission", "Legacy Modernization"],
+    "WhyThisWorks": [
+      "Shows accountability for deployment errors",
+      "Demonstrates creative recovery under field constraints",
+      "Preserves trust while institutionalizing the lesson"
+    ]
+  },
+  {
+    "Id": "star-hyperv-migration",
+    "Title": "Hyper-V Migration Boot Failure",
+    "Category": "Technical",
+    "Situation": "After migrating a physical server to Hyper-V, the VM failed to boot due to an 'Inaccessible Boot Device' BSOD.",
+    "Task": "Diagnose and resolve the boot failure without reimaging or losing data.",
+    "Action": "Discovered that the original system used SCSI while the VM was configured with SATA. Booted into WinPE, mounted the registry hive, and manually re-enabled the SATA driver.",
+    "Result": "Successfully booted the VM and completed the migration. Documented the driver mismatch for future virtualization checklists.",
+    "StrategicImpact": [
+      "Virtualization resilience",
+      "Registry-level recovery",
+      "Preventive documentation"
+    ],
+    "Tags": ["Fail and Recover", "Error and Admission", "Virtualization"],
+    "WhyThisWorks": [
+      "Demonstrates deep OS-level troubleshooting",
+      "Recovers from virtualization failure without escalation",
+      "Institutionalizes lessons for future migrations"
+    ]
+  }
+]

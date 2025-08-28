@@ -1,0 +1,92 @@
+[
+  {
+    "Id": "star1",
+    "Title": "Texaco SCADA/DCS Fault Recovery",
+    "Category": "Technical",
+    "Situation": "SCADA telemetry routing failure via Hiway Gateway",
+    "Task": "Isolate fault and restore telemetry without reboot",
+    "Action": "Used diagnostic overlays and deployed self-healing TCP/IP script",
+    "Result": "Restored routing and created Mission Control dashboard",
+    "StrategicImpact": [
+      "Real-time fault isolation",
+      "Telemetry resilience",
+      "SCADA/DCS integration"
+    ],
+    "Tags": ["SCADA", "Fail and Recover"]
+  },
+  {
+    "Id": "star2",
+    "Title": "GINA DLL Blue Screen Recovery",
+    "Category": "Technical",
+    "Situation": "Custom GINA DLL caused BSOD on client systems",
+    "Task": "Diagnose and recover without bootable media",
+    "Action": "Used DOS NTFS driver, built boot floppy with AutoExec.bat to replace DLL",
+    "Result": "Resolved issue across client fleet in 4 hours",
+    "StrategicImpact": [
+      "Low-level fault recovery",
+      "Rapid field response",
+      "Client trust preservation"
+    ],
+    "Tags": ["Fail and Recover", "Error and Admission"]
+  },
+  {
+    "Id": "star3",
+    "Title": "Accruent ATCM Governance",
+    "Category": "Governance",
+    "Situation": "High-risk infrastructure changes required structured approval",
+    "Task": "Implement ITIL-aligned change management",
+    "Action": "Used RPN scoring, GitFlow gating, board-level reviews",
+    "Result": "Audit-ready releases with rollback planning and stakeholder confidence",
+    "StrategicImpact": [
+      "Compliance discipline",
+      "Risk quantification",
+      "Governance culture"
+    ],
+    "Tags": ["Governance", "Compliance"]
+  },
+  {
+    "Id": "star4",
+    "Title": "Hyper-V Migration BSOD Recovery",
+    "Category": "Technical",
+    "Situation": "VM failed to boot due to disabled SATA driver",
+    "Task": "Diagnose and re-enable boot device driver",
+    "Action": "Used WinPE to load registry hive and activate SATA driver",
+    "Result": "Successful boot and migration without data loss",
+    "StrategicImpact": [
+      "Virtualization resilience",
+      "OS-level fault recovery",
+      "Preventive documentation"
+    ],
+    "Tags": ["Fail and Recover", "Error and Admission"]
+  },
+  {
+    "Id": "star5",
+    "Title": "Zero Defects Software Release",
+    "Category": "Mentorship",
+    "Situation": "Inherited team with history of Severity 1 defects",
+    "Task": "Lead team to defect-free release",
+    "Action": "Mentored engineers, enforced best practices, contributed to codebase",
+    "Result": "Two consecutive releases with zero Severity 1 defects",
+    "StrategicImpact": [
+      "Leadership under pressure",
+      "Quality discipline",
+      "Team transformation"
+    ],
+    "Tags": ["Mentorship", "Governance"]
+  },
+  {
+    "Id": "star6",
+    "Title": "IT Works Imaging Failures",
+    "Category": "Technical",
+    "Situation": "Network failures during system imaging",
+    "Task": "Diagnose root cause and educate client",
+    "Action": "Tested topology, uncovered switch misconfigurations",
+    "Result": "Resolved failures and hardened client infrastructure",
+    "StrategicImpact": [
+      "Network diagnostics",
+      "Client education",
+      "Infrastructure hardening"
+    ],
+    "Tags": ["Fail and Recover", "SCADA"]
+  }
+]

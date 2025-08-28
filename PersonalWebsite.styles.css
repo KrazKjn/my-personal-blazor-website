@@ -25,6 +25,143 @@
     padding: 1rem;
     background-color: #fff; /* White body for clean content display */
 }
+/* /Components/AnnouncementBanner/AnnouncementBanner.razor.rz.scp.css */
+.announcement-container[b-1qv94xm25u] {
+  display: flex;
+  flex-direction: row; /* horizontal layout */
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: max-height 0.3s ease, color 0.3s ease;
+  color: transparent;
+}
+
+.announcement-container.expanded[b-1qv94xm25u] {
+  color: whitesmoke;
+}
+
+.announcement-container.collapsed[b-1qv94xm25u] {
+  max-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+/* Left column: vertical stack */
+.announcement-wrapper[b-1qv94xm25u] {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  gap: 0.5rem;
+}
+
+/* Right column: centered and right-aligned */
+.announcement-link[b-1qv94xm25u] {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.announcement-link a[b-1qv94xm25u] {
+  color: #0078d4;
+  text-decoration: underline;
+}
+
+#carousel[b-1qv94xm25u] {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Carousel layout */
+.carousel-wrapper[b-1qv94xm25u] {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-track[b-1qv94xm25u] {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.carousel-slide[b-1qv94xm25u] {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: whitesmoke;
+}
+
+/* Title styling */
+.announcement-header[b-1qv94xm25u] {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Indicators */
+.carousel-indicators[b-1qv94xm25u] {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.indicator-dot[b-1qv94xm25u] {
+  height: 10px;
+  width: 10px;
+  margin: 0 4px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.indicator-dot.active[b-1qv94xm25u] {
+  background-color: #0078d4;
+}
+
+/* Controls */
+.carousel-controls[b-1qv94xm25u] {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.carousel-controls button[b-1qv94xm25u] {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .announcement-container[b-1qv94xm25u] {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .announcement-link[b-1qv94xm25u] {
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .carousel-slide[b-1qv94xm25u] {
+    flex: 0 0 100%;
+    font-size: 0.9rem;
+  }
+}
 /* /Components/CallToAction/CallToAction.razor.rz.scp.css */
 /* Components/CallToAction/CallToAction.css */
 .call-to-action[b-ocx68moy7d] {
@@ -240,19 +377,6 @@ main[b-w626c2ueuy] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
-}
-/* /Components/OfferingCard/OfferingCard.razor.rz.scp.css */
-.OfferingCard:hover[b-x5zkqds6qz] {
-    transform: scale(1.01);
-    transition: transform 0.2s ease-in-out;
-}
-
-.card-title[b-x5zkqds6qz] {
-    font-weight: 600;
-}
-
-.card-text[b-x5zkqds6qz] {
-    margin-bottom: 0.75rem;
 }
 /* /Pages/Resumes/Resumes.razor.rz.scp.css */
 .bi[b-vfyd0vg4dk] {

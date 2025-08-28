@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "Title": "Strategic Systems Engineering at Texaco",
+      "Message": "This archive showcases a series of engineering wins from my time at Texaco’s Los Angeles refinery—where I led initiatives that redefined SCADA integration, automated fragile infrastructure, and built secure desktop environments from the ground up.",
+      "LinkText": "Legacy Engineering at Texaco",
+      "LinkTarget": "legacy-engineering-texaco",
+      "AutoCollapseMs": 15000
+    },
+    {
+      "id": 2,
+      "Title": "Legacy Systems Engineering",
+      "Message": "Senior Architect and Infrastructure Strategist with proven success stabilizing and modernizing COBOL and FORTRAN 77 platforms across SCADA, ICS, and compliance-heavy industrial environments. Adept at translating vintage logic into maintainable, interoperable systems while mentoring teams and guiding resilient modernization trajectories. Specialized in integrating legacy components into automated stacks and preserving mission-critical reliability through pragmatic engineering.",
+      "LinkText": "Legacy Support",
+      "LinkTarget": "legacy-profile",
+      "AutoCollapseMs": 15000
+    },
+    {
+      "id": 3,
+      "Title": "Problem Solving Profile",
+      "Message": "From firmware to Freon, refinery to registry—each solution reflects practical ingenuity across domains and decades.",
+      "LinkText": "Problem Solving Profile",
+      "LinkTarget": "problem-solving-profile",
+      "AutoCollapseMs": 15000
+    },
+    {
+      "id": 4,
+      "Title": "Change Management & Governance",
+      "Message": "Explore how I architected audit-ready release pipelines, implemented RPN scoring, and enforced GitFlow discipline across enterprise teams. This section documents my approach to ITIL-aligned governance, emergency change protocols, and regulatory mapping for NERC CIP, NRC, and FISMA compliance.",
+      "LinkText": "Change Management",
+      "LinkTarget": "change-governance",
+      "AutoCollapseMs": 15000
+    },
+    {
+      "id": 5,
+      "Title": "Strategic Engineering Persona",
+      "Message": "A discoverable archive of STAR responses, strategic interview questions, and visual overlays that showcase my architectural mindset, fault recovery instincts, and mentorship philosophy. This section links engineering wins to real-world impact and legacy preservation.",
+      "LinkText": "Engineering Persona",
+      "LinkTarget": "strategic-persona",
+      "AutoCollapseMs": 15000
+    }
+]
+  

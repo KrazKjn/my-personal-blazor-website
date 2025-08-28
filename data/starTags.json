@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Fail and Recover",
+    "Description": "Demonstrates failure followed by strategic recovery and resolution."
+  },
+  {
+    "Name": "Error and Admission",
+    "Description": "Shows accountability and transparency in owning and resolving mistakes."
+  },
+  {
+    "Name": "SCADA",
+    "Description": "Involves SCADA/DCS systems, telemetry, or industrial control environments."
+  },
+  {
+    "Name": "Governance",
+    "Description": "Highlights structured change management, release discipline, or ITIL-aligned workflows."
+  },
+  {
+    "Name": "Compliance",
+    "Description": "Maps to regulatory frameworks such as NERC CIP, NRC 10 CFR 73.54, or FISMA/NIST."
+  },
+  {
+    "Name": "Mentorship",
+    "Description": "Demonstrates coaching, team transformation, or legacy preservation for future engineers."
+  },
+  {
+    "Name": "Legacy Modernization",
+    "Description": "Transforms legacy systems into modern, maintainable, and discoverable architectures."
+  },
+  {
+    "Name": "Telemetry Resilience",
+    "Description": "Ensures fault tolerance and recovery in real-time data systems."
+  },
+  {
+    "Name": "Virtualization",
+    "Description": "Involves physical-to-virtual migrations, Hyper-V, or OS-level boot recovery."
+  },
+  {
+    "Name": "Network Diagnostics",
+    "Description": "Includes topology testing, switch/router troubleshooting, and infrastructure hardening."
+  },
+  {
+    "Name": "Rapid Response",
+    "Description": "Shows urgency, creativity, and execution under time-sensitive conditions."
+  },
+  {
+    "Name": "Audit Ready",
+    "Description": "Demonstrates traceability, rollback planning, and documentation for compliance."
+  }
+]

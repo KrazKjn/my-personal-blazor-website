@@ -477,13 +477,12 @@ html {
 
 .card-body small {
     font-size: 0.85rem;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
 }
 
 .card-body strong {
     color: #87cefa;
 }
-
 
 /* Sort Dropdown */
 #sortOrder {
@@ -511,6 +510,11 @@ html {
 .text-muted {
     font-style: italic;
     color: #aaa;
+}
+
+.text-subdued {
+    color: whitesmoke;
+    font-style: italic;
 }
 
 /* LegacyProfile */
