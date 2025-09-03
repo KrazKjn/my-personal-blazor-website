@@ -10,6 +10,15 @@ window.consoleLogger = {
     }
 };
 
+window.scrollToTop = function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.scrollElementIntoView = function (id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth' });
+};
+
 window.scrollCarousel = function(direction) {
   const container = document.querySelector('.announcement-carousel');
   const scrollAmount = 320;
